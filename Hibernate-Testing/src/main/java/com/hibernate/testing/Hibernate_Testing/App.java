@@ -1,10 +1,19 @@
 package com.hibernate.testing.Hibernate_Testing;
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+
+
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class App implements Serializable 
 {
 	private Long id;
 	 
