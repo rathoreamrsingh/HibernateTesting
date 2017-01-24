@@ -22,7 +22,8 @@
         <property name="hibernate.hbm2ddl.auto">create-drop</property>
  
         <!-- Annotated entity classes -->
-        <mapping class="ccom.hibernate.testing.Hibernate_Testing.App"/>
+        <mapping class="com.hibernate.testing.Hibernate_Testing.App"/>
         
     </session-factory>
+    
 </hibernate-configuration>

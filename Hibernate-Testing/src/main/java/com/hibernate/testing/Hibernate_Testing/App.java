@@ -15,33 +15,50 @@ import javax.persistence.Id;
  */
 public class App implements Serializable 
 {
-	private Long id;
-	 
-	private String login;
-
-	public Long getId() {
+	private int id;
+	   protected String fname; 
+	   protected String lname;
+	   protected String address;
+	   protected String phoneno;
+	public int getId() {
 		return id;
 	}
+	public App(){}
+	public App(String fname, String lname, String address, String phoneno) {
+		super();
+		
+		this.fname = fname;
+		this.lname = lname;
+		this.address = address;
+		this.phoneno = phoneno;
+	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
-
-	public String getLogin() {
-		return login;
+	public String getFname() {
+		return fname;
 	}
-
-	public App(Long id, String login) {
-		super();
-		this.id = id;
-		this.login = login;
+	public void setFname(String fname) {
+		this.fname = fname;
 	}
-
-	public App() {
-		super();
+	public String getLname() {
+		return lname;
 	}
-
-	public void setLogin(String login) {
-		this.login = login;
+	public void setLname(String lname) {
+		this.lname = lname;
 	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getPhoneno() {
+		return phoneno;
+	}
+	public void setPhoneno(String phoneno) {
+		this.phoneno = phoneno;
+	}
+	   
 }
