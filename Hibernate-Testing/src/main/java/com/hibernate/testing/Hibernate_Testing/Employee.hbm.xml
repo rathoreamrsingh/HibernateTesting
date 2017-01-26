@@ -5,12 +5,12 @@
 
 
 <hibernate-mapping>
-   <class name="App" table="employee">
+   <class name="com.hibernate.testing.Hibernate_Testing.App" table="employee">
       <meta attribute="class-description">
          This class contains the employee detail. 
       </meta>
       <id name="id" type="int" column="id">
-         <generator class="native"/>
+         <generator class="increment"/>
       </id>
       <property name="fname" column="fname" type="string"/>
       <property name="lname" column="lname" type="string"/>
