@@ -1,6 +1,10 @@
 package com.book.self.Hibernate_Testing;
 import java.io.Serializable;
-
+/**
+ * 
+ * @author krishna
+ *
+ */
 public class Book implements Serializable {
 	public	int b_id;
 	protected	String b_name;
