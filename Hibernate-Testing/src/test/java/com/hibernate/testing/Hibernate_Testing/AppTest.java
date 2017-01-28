@@ -29,7 +29,7 @@ public class AppTest {
 		AppTest AT = new AppTest();
 
 		/* Add few employee records in database */
-		Integer empID1 = AT.addEmployee("Amar ", "singh", "bihar", "jjigg");
+		Integer empID1 = AT.addEmployee("Amar ", "singhwewewe", "bihar", "jjigg");
 		// AT.listEmployees();
 
 	}

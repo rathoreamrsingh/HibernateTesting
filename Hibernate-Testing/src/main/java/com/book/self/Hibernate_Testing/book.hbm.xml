@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+   <class name="com.book.self.Hibernate_Testing.App" table="book">
+      <meta attribute="class-description">
+         This class contains the book detail. 
+      </meta>
+      <id name="B_id" type="int" column="b_id">
+         <generator class="sequence"/>
+      </id>
+      <property name="B_name" column="b_name" type="string"/>
+      <property name="P_date" column="p_date" type="string"/>
+      
+   </class>
+</hibernate-mapping>
