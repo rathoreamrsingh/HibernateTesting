@@ -25,6 +25,7 @@ public class BookTest {
 
 		/* Add few employee records in database */
 		Integer bookID1 = BT.addbook("physics ", "2010");
+		Integer bookID2 = BT.addbook("chemestry ", "2011");
 		//BT.listBook();
 
 	}

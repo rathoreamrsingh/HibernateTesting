@@ -3,15 +3,15 @@
  "-//Hibernate/Hibernate Mapping DTD//EN"
  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 <hibernate-mapping>
-   <class name="com.book.self.Hibernate_Testing.App" table="book">
+   <class name="com.book.self.Hibernate_Testing.Book" table="bookself">
       <meta attribute="class-description">
          This class contains the book detail. 
       </meta>
       <id name="B_id" type="int" column="b_id">
          <generator class="sequence"/>
       </id>
-      <property name="B_name" column="b_name" type="string"/>
-      <property name="P_date" column="p_date" type="string"/>
+      <property name="b_name" column="b_name" type="string"/>
+      <property name="p_date" column="p_date" type="string"/>
       
    </class>
 </hibernate-mapping>
